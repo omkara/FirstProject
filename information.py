@@ -1,7 +1,7 @@
-# this module give the information about  list,dict,tuples method etc 
+# This module give the information about  list,dict,tuples method etc 
 
 def info(object,spacing=10,collapse=1):
-    """ print methods and doc string.
+    """ Print methods and doc string.
     Takes module,class,list,dictionary,or string."""
     methodlist=[method for method in dir(object) if callable(getattr(object,method))]
 
