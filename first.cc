@@ -2,8 +2,7 @@
 #include <cstdio>
 using namespace std;
 
-int main(){
-	
+int main(){	
 	/* write your code here */
 	
 	cout<<"Hello world !!"<<endl;
